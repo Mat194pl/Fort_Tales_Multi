@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fort_Tales_Server", "Fort_Tales_Server\Fort_Tales_Server\Fort_Tales_Server.csproj", "{044503EC-E86B-48FB-9D1C-0F3CBF7FD953}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "Fort_Tales_ServerContent", "Fort_Tales_Server\Fort_Tales_ServerContent\Fort_Tales_ServerContent.contentproj", "{88335172-CA02-4CB6-B4FF-16791F9D035D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{044503EC-E86B-48FB-9D1C-0F3CBF7FD953}.Debug|x86.ActiveCfg = Debug|x86
+		{044503EC-E86B-48FB-9D1C-0F3CBF7FD953}.Debug|x86.Build.0 = Debug|x86
+		{044503EC-E86B-48FB-9D1C-0F3CBF7FD953}.Release|x86.ActiveCfg = Release|x86
+		{044503EC-E86B-48FB-9D1C-0F3CBF7FD953}.Release|x86.Build.0 = Release|x86
+		{88335172-CA02-4CB6-B4FF-16791F9D035D}.Debug|x86.ActiveCfg = Debug|x86
+		{88335172-CA02-4CB6-B4FF-16791F9D035D}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

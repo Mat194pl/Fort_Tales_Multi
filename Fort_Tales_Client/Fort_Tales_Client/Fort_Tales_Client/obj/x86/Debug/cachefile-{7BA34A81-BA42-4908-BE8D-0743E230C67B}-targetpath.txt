@@ -1,0 +1,4 @@
+Content\Font.xnb
+Content\SpriteSheet.xnb
+Content\mouse_1.xnb
+Content\GameplayGUI.xnb

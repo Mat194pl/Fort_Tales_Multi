@@ -1,0 +1,12 @@
+F:\Visual Studio 2010\Projects\Fort_Tales_Client\Fort_Tales_Client\Fort_Tales_Client\bin\x86\Debug\Fort_Tales_Client.exe
+F:\Visual Studio 2010\Projects\Fort_Tales_Client\Fort_Tales_Client\Fort_Tales_Client\bin\x86\Debug\Fort_Tales_Client.pdb
+F:\Visual Studio 2010\Projects\Fort_Tales_Client\Fort_Tales_Client\Fort_Tales_Client\bin\x86\Debug\Lidgren.Network.dll
+F:\Visual Studio 2010\Projects\Fort_Tales_Client\Fort_Tales_Client\Fort_Tales_Client\bin\x86\Debug\Lidgren.Network.Xna.dll
+F:\Visual Studio 2010\Projects\Fort_Tales_Client\Fort_Tales_Client\Fort_Tales_Client\obj\x86\Debug\Fort_Tales_Client.csprojResolveAssemblyReference.cache
+F:\Visual Studio 2010\Projects\Fort_Tales_Client\Fort_Tales_Client\Fort_Tales_Client\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+F:\Visual Studio 2010\Projects\Fort_Tales_Client\Fort_Tales_Client\Fort_Tales_Client\obj\x86\Debug\Fort_Tales_Client.exe
+F:\Visual Studio 2010\Projects\Fort_Tales_Client\Fort_Tales_Client\Fort_Tales_Client\obj\x86\Debug\Fort_Tales_Client.pdb
+F:\Visual Studio 2010\Projects\Fort_Tales_Client\Fort_Tales_Client\Fort_Tales_Client\bin\x86\Debug\Content\Font.xnb
+F:\Visual Studio 2010\Projects\Fort_Tales_Client\Fort_Tales_Client\Fort_Tales_Client\bin\x86\Debug\Content\SpriteSheet.xnb
+F:\Visual Studio 2010\Projects\Fort_Tales_Client\Fort_Tales_Client\Fort_Tales_Client\bin\x86\Debug\Content\mouse_1.xnb
+F:\Visual Studio 2010\Projects\Fort_Tales_Client\Fort_Tales_Client\Fort_Tales_Client\bin\x86\Debug\Content\GameplayGUI.xnb

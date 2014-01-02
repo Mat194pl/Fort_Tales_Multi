@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Font.spritefont</Source>
+      <Name>Font</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Visual Studio 2010\Projects\Fort_Tales_Client\Fort_Tales_Client\Fort_Tales_Client\bin\x86\Debug\Content\Font.xnb</Output>
+      <Time>2013-12-30T14:37:19.6461478+01:00</Time>
+    </Item>
+    <Item>
+      <Source>SpriteSheet.png</Source>
+      <Name>SpriteSheet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Visual Studio 2010\Projects\Fort_Tales_Client\Fort_Tales_Client\Fort_Tales_Client\bin\x86\Debug\Content\SpriteSheet.xnb</Output>
+      <Time>2014-01-02T20:44:05.5395936+01:00</Time>
+    </Item>
+    <Item>
+      <Source>mouse_1.png</Source>
+      <Name>mouse_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Visual Studio 2010\Projects\Fort_Tales_Client\Fort_Tales_Client\Fort_Tales_Client\bin\x86\Debug\Content\mouse_1.xnb</Output>
+      <Time>2014-01-02T15:00:06.6143761+01:00</Time>
+    </Item>
+    <Item>
+      <Source>GameplayGUI.png</Source>
+      <Name>GameplayGUI</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Visual Studio 2010\Projects\Fort_Tales_Client\Fort_Tales_Client\Fort_Tales_Client\bin\x86\Debug\Content\GameplayGUI.xnb</Output>
+      <Time>2014-01-02T17:42:13.7104727+01:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{7BA34A81-BA42-4908-BE8D-0743E230C67B}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>F:\Visual Studio 2010\Projects\Fort_Tales_Client\Fort_Tales_Client\Fort_Tales_ClientContent\</RootDirectory>
+      <LoggerRootDirectory>F:\Visual Studio 2010\Projects\Fort_Tales_Client\Fort_Tales_Client\Fort_Tales_Client\</LoggerRootDirectory>
+      <IntermediateDirectory>F:\Visual Studio 2010\Projects\Fort_Tales_Client\Fort_Tales_Client\Fort_Tales_Client\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>F:\Visual Studio 2010\Projects\Fort_Tales_Client\Fort_Tales_Client\Fort_Tales_Client\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T16:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T16:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2013-10-23T20:28:46.2268951+02:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

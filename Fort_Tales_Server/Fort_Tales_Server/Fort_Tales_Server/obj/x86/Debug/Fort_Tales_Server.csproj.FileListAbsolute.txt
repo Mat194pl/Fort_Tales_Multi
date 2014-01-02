@@ -1,0 +1,9 @@
+F:\Visual Studio 2010\Projects\Fort_Tales_Server\Fort_Tales_Server\Fort_Tales_Server\bin\x86\Debug\Fort_Tales_Server.exe
+F:\Visual Studio 2010\Projects\Fort_Tales_Server\Fort_Tales_Server\Fort_Tales_Server\bin\x86\Debug\Fort_Tales_Server.pdb
+F:\Visual Studio 2010\Projects\Fort_Tales_Server\Fort_Tales_Server\Fort_Tales_Server\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+F:\Visual Studio 2010\Projects\Fort_Tales_Server\Fort_Tales_Server\Fort_Tales_Server\obj\x86\Debug\Fort_Tales_Server.exe
+F:\Visual Studio 2010\Projects\Fort_Tales_Server\Fort_Tales_Server\Fort_Tales_Server\obj\x86\Debug\Fort_Tales_Server.pdb
+F:\Visual Studio 2010\Projects\Fort_Tales_Server\Fort_Tales_Server\Fort_Tales_Server\bin\x86\Debug\Lidgren.Network.dll
+F:\Visual Studio 2010\Projects\Fort_Tales_Server\Fort_Tales_Server\Fort_Tales_Server\bin\x86\Debug\Lidgren.Network.Xna.dll
+F:\Visual Studio 2010\Projects\Fort_Tales_Server\Fort_Tales_Server\Fort_Tales_Server\obj\x86\Debug\Fort_Tales_Server.csprojResolveAssemblyReference.cache
+F:\Visual Studio 2010\Projects\Fort_Tales_Server\Fort_Tales_Server\Fort_Tales_Server\bin\x86\Debug\Content\Font.xnb
