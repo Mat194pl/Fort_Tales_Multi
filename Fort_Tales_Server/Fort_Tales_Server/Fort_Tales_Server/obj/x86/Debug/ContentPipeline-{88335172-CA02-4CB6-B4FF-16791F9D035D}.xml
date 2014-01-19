@@ -10,6 +10,15 @@
       <Output>F:\Visual Studio 2010\Projects\Fort_Tales_Server\Fort_Tales_Server\Fort_Tales_Server\bin\x86\Debug\Content\Font.xnb</Output>
       <Time>2013-12-30T15:14:25.5764638+01:00</Time>
     </Item>
+    <Item>
+      <Source>MapTexture.png</Source>
+      <Name>MapTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Visual Studio 2010\Projects\Fort_Tales_Server\Fort_Tales_Server\Fort_Tales_Server\bin\x86\Debug\Content\MapTexture.xnb</Output>
+      <Time>2014-01-19T13:28:06.9271847+01:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <ContentProjectGUID>{88335172-CA02-4CB6-B4FF-16791F9D035D}</ContentProjectGUID>

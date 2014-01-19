@@ -4,6 +4,11 @@ F:\Visual Studio 2010\Projects\Fort_Tales_Server\Fort_Tales_Server\Fort_Tales_Se
 F:\Visual Studio 2010\Projects\Fort_Tales_Server\Fort_Tales_Server\Fort_Tales_Server\obj\x86\Debug\Fort_Tales_Server.exe
 F:\Visual Studio 2010\Projects\Fort_Tales_Server\Fort_Tales_Server\Fort_Tales_Server\obj\x86\Debug\Fort_Tales_Server.pdb
 F:\Visual Studio 2010\Projects\Fort_Tales_Server\Fort_Tales_Server\Fort_Tales_Server\bin\x86\Debug\Lidgren.Network.dll
-F:\Visual Studio 2010\Projects\Fort_Tales_Server\Fort_Tales_Server\Fort_Tales_Server\bin\x86\Debug\Lidgren.Network.Xna.dll
 F:\Visual Studio 2010\Projects\Fort_Tales_Server\Fort_Tales_Server\Fort_Tales_Server\obj\x86\Debug\Fort_Tales_Server.csprojResolveAssemblyReference.cache
 F:\Visual Studio 2010\Projects\Fort_Tales_Server\Fort_Tales_Server\Fort_Tales_Server\bin\x86\Debug\Content\Font.xnb
+F:\Visual Studio 2010\Projects\Fort_Tales_Server\Fort_Tales_Server\Fort_Tales_Server\bin\x86\Debug\Lidgren.Network.pdb
+F:\Visual Studio 2010\Projects\Fort_Tales_Server\Fort_Tales_Server\Fort_Tales_Server\bin\x86\Debug\Fort_Tales_Server.exe.manifest
+F:\Visual Studio 2010\Projects\Fort_Tales_Server\Fort_Tales_Server\Fort_Tales_Server\bin\x86\Debug\Fort_Tales_Server.application
+F:\Visual Studio 2010\Projects\Fort_Tales_Server\Fort_Tales_Server\Fort_Tales_Server\obj\x86\Debug\Fort_Tales_Server.exe.manifest
+F:\Visual Studio 2010\Projects\Fort_Tales_Server\Fort_Tales_Server\Fort_Tales_Server\obj\x86\Debug\Fort_Tales_Server.application
+F:\Visual Studio 2010\Projects\Fort_Tales_Server\Fort_Tales_Server\Fort_Tales_Server\bin\x86\Debug\Content\MapTexture.xnb

@@ -240,7 +240,7 @@ namespace Fort_Tales
                     // niż aktualnie znaleziony (lub jeszcze nie przypisany)
                     // oraz to pole zostało odwiedzone rpzez algorytm
                     if (IsOnMap(w.X, w.Y, Map.GetLength(0), Map.GetLength(1)) && (Map[w.X, w.Y].cost < smlCost || smlCost == -1) && !Blocks[w.X, w.Y].IsObstale()
-                        && Map[w.X, w.Y].visited && !Blocks[w.X, w.Y].Occupied/*&& !Blocks[w.X, w.Y].IsUnitOnBlocks(ref player)*/)
+                        && Map[w.X, w.Y].visited /*&& !Blocks[w.X, w.Y].Occupied/*&& !Blocks[w.X, w.Y].IsUnitOnBlocks(ref player)*/)
                     {
                         // to zapisz dane tego punktu (koszt oraz kierunek)
                         smlCost = Map[w.X, w.Y].cost;
@@ -255,6 +255,7 @@ namespace Fort_Tales
                     v = new Point(v.X + dirs[smlDir].X, v.Y + dirs[smlDir].Y);
                     // i dodaj v na początek listy (dzięki temu nie będziemy potem musieli odwracać listy)
                     Way.Insert(0, v);
+                    //Console.WriteLine(Way.Count.ToString() + " - " + Way[0].X.ToString() + " " + Way[0].Y.ToString() + "  V.X: " + v.X.ToString() + "  V.Y: " + v.Y.ToString() + " sx: " + sx.ToString() + " sy: " + sy.ToString());
                 }
                 else
                 {

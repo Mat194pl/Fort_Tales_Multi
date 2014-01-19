@@ -2,3 +2,15 @@ Content\Font.xnb
 Content\SpriteSheet.xnb
 Content\mouse_1.xnb
 Content\GameplayGUI.xnb
+Content\Font2.xnb
+Content\Textures.xnb
+Content\Buildings.xnb
+Content\Font3.xnb
+Content\Button1.xnb
+Content\Button1h.xnb
+Content\Menu.xnb
+Content\MainMenuSong.xnb
+Content\MainMenuSong.wma
+Content\MainMenu_Song.xnb
+Content\MainMenu_Song.wma
+Content\button_hover.xnb

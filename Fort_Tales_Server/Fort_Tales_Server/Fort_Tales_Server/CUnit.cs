@@ -13,7 +13,7 @@ namespace Fort_Tales
         public int dx;
         public int dy;
         public int ID;
-        public List<Vector2> Way;
+        public List<Vector2> Way { get; set; }
         CRoadFinder RoadFinder;
         CBlock[,] Blocks;
         public int pX;
@@ -130,7 +130,7 @@ namespace Fort_Tales
                         else
                         {
                             ////Console.WriteLine((realX).ToString() + " " + (realY).ToString() + " " + Way.First().X.ToString() + " " + Way.First().Y.ToString());
-                            Blocks[dx, dy].Occupied = true;
+                            Blocks[dx, dy].Occupied = false;
                             if (realX / 50 != (int)Way.First().X || realY / 50 != (int)Way.First().Y)
                             {
                                 if (realX > (int)Way.First().X * 50) realX--;

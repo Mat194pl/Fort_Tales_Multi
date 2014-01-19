@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework;
+using Lidgren.Network;
+using System.Net;
 
 namespace Fort_Tales
 {
@@ -14,7 +16,7 @@ namespace Fort_Tales
         public int TexX;
         public int TexY;
         public int Height;
-        public int Width;
+        public int Width;        
 
         public CGameObject(int x, int y, int id, int texx, int texy, int height, int width)
         {
@@ -42,16 +44,30 @@ namespace Fort_Tales
         public string Name;
         public SCamera Camera;
         public Vector2 Mouse;
+        public IPEndPoint IP_internal;
+        public IPEndPoint IP_external;
         //public CBlock Blocks;
         public int Resources { get; set; }
         public int MaxResources { get; set; }
         public int Food { get; set; }
+        public int FoodIncome { get; set; }
         public int MaxFood { get; set; }
         public int Money { get; set; } 
+        public int MaxPopulation { get; set; }
+        public int Population { get; set; }
+        public int ResourcesIncome { get; set; }
+        public bool IsMapLoaded;
+        public int MapLastX { get; set; }
+        public int MapLastY { get; set; }
         //private int Resources;
         //public int Gold;
         public int ID { get; set; }
         private bool playing;
+        public int MapCount;
+        public bool NeedMap;
+        public int WindowWidth;
+        public int WindowHeight;
+
 
         public CPlayer()
         {
@@ -61,8 +77,12 @@ namespace Fort_Tales
         public CPlayer(string name, int id)
         {
             Name = name;
+            MaxPopulation = 0;
+            Population = 0;
             Resources = 100000;
             MaxResources = 100000;
+            Food = 1000;
+            MaxFood = 1000;
             ID = id;
             Camera.X = 0;
             Camera.Y = 0;
@@ -149,7 +169,7 @@ namespace Fort_Tales
             int id;
             if (Units.Count == 0) id = 0;
             else
-                id = Units.Last().ID;
+                id = Units.Last().ID + 1;
             /*if (Blocks[x, y].GetObjectID() == 0 && !Blocks[x, y].IsUnitOnBlocks(ref Units))*/ Units.Add(new CUnit(x, y, id, 500, ref RoadFinder, ref Blocks));
         }
 

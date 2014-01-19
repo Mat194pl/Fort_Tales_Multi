@@ -10,12 +10,17 @@ namespace Fort_Tales
         public int x { get; set; }
         public int y { get; set; }
         public int objectId { get; set; }
-        public int Hp { get; set; }
-        public int MaxHp;
+        private int Hp { get; set; }
+        private int MaxHp;
         public bool building { get; set; }
         public int Id { get; set; }
         public int Loyality { get; set; }
         private CPlayer player;
+        public int BuildingTime;
+        public bool Builded;
+        private int BHp;
+        private int BMaxHp;
+        public int MaxBuildingTime;
         //public int city { get; set; }
 
         public CPlayerObject(ref CPlayer play,int px, int py, int pobjectId, int hp, bool pbuilding, int pId, int l/*, int pcity*/)
@@ -23,13 +28,49 @@ namespace Fort_Tales
             x = px;
             y = py;
             objectId = pobjectId;
-            Hp = hp;
-            MaxHp = Hp;
+            BHp = hp;
+            BMaxHp = hp;
             building = pbuilding;
             Id = pId;
             Loyality = l;
             player = play;
+            Builded = false;
+            BuildingTime = 600;
+            MaxBuildingTime = 600;
+            Hp = 50;
+            MaxHp = 50;
             //city = pcity;
+        }
+
+        public int GetHp()
+        {
+            return Hp;
+        }
+
+        public int GetMaxHp()
+        {
+            return MaxHp;
+        }
+
+        public void AttackThis(int a)
+        {
+            Hp -= a;
+        }
+
+        public void Update()
+        {
+            if (!Builded)
+            {
+                BuildingTime--;
+                if (BuildingTime <= 0)
+                {
+                    int a = Hp;
+                    Hp = BHp - (50 - a);
+                    MaxHp = BMaxHp;
+                    Console.WriteLine(Hp.ToString() + " " + MaxHp.ToString());
+                    Builded = true;
+                }
+            }
         }
 
         public bool IsNear(int px, int py, int d)

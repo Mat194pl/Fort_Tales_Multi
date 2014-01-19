@@ -16,12 +16,22 @@ namespace Fort_Tales_Client
     class CInputWindow
     {
         private Keys[] PressedKeys;
-        private string Text;
+        private string Text { get; set; }
         public bool IsEnter;
+        public int X;
+        public int Y;
+        public int Width;
+        public int Height;
+        public bool Active;
 
-        public CInputWindow()
+        public CInputWindow(int x, int y, int w, int h)
         {
             IsEnter = false;
+            X = x;
+            Y = y;
+            Width = w;
+            Height = h;
+            Active = false;
         }
 
         public void AddKey(KeyboardState k)
@@ -215,6 +225,17 @@ namespace Fort_Tales_Client
                         Text += "z";
                         break;
 
+                    case Keys.OemPeriod:
+                        Text += ".";
+                        break;
+                    
+                    case Keys.Back:
+                        if (Text.Length > 0)
+                        {
+                            Text = Text.Remove(Text.Length - 1);                         
+                        }
+                        break;
+                    
                     case Keys.Enter:
                         IsEnter = true;
                         break;
